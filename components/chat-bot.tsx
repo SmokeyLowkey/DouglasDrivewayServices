@@ -510,7 +510,7 @@ Please confirm these details and then create the appointment.`;
 
       // Send message to webhook and wait for response with timeout
       console.log("[WEBHOOK] Sending request to n8n webhook...");
-      const webhookUrl = config.webhook.testUrl;
+      const webhookUrl = config.webhook.url;
       console.log("[WEBHOOK] URL:", webhookUrl);
       
       // Create an AbortController for the timeout
